@@ -6,10 +6,8 @@
 trigger:
 - develop
 
-# pool:
-#   vmImage: 'windows-latest'
-pool: Self-hosted
-
+pool:
+  vmImage: 'windows-latest'
 
 variables:
   solution: '**/*.sln'

@@ -4,10 +4,10 @@
 # https://docs.microsoft.com/azure/devops/pipelines/apps/windows/dot-net
 
 trigger:
-- develop
+- main
 
 pool:
-  vmImage: 'windows-latest'
+  name: BetoTechAgent
 
 variables:
   solution: '**/*.sln'

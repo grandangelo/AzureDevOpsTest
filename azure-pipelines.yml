@@ -4,12 +4,10 @@
 # https://docs.microsoft.com/azure/devops/pipelines/apps/windows/dot-net
 
 trigger:
-- main
+- develop
 
-# pool:
-#   vmImage: 'windows-latest'
-pool: Self-hosted
-
+pool:
+  vmImage: 'windows-latest'
 
 variables:
   solution: '**/*.sln'

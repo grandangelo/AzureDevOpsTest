@@ -3,4 +3,4 @@
 
 # AzureDevOpsTest
 
-Playing with Azure.
+Playing with Azure DevOps.

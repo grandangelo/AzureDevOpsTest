@@ -36,4 +36,4 @@ steps:
   displayName: 'Run unit tests - $(buildConfiguration)'
   inputs:
     command: test
-    projects: '**/*Tests*.csproj'
+    projects: '**\*Tests*.csproj'

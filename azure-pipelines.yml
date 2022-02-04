@@ -36,6 +36,3 @@ steps:
   displayName: 'Run unit tests - $(buildConfiguration)'
   inputs:
     command: test
-    arguments: '--configuration $(buildConfiguration)'
-    publishTestResults: true
-    projects: '**/UnitTests/*.csproj'

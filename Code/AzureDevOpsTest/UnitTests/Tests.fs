@@ -11,5 +11,5 @@ type TestClass () =
         Assert.IsTrue(true);
 
     [<TestMethod>]
-    member this.TestMethodFailing () =
-        Assert.IsTrue(false);
+    member this.TestMethodNoMoreFailing () =
+        Assert.IsTrue(true);

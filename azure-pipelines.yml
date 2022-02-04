@@ -38,4 +38,4 @@ steps:
     command: test
     arguments: '--configuration $(buildConfiguration)'
     publishTestResults: true
-    projects: '**/*/*.csproj'
+    projects: '**/*.csproj'
